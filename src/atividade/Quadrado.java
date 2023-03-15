@@ -30,9 +30,9 @@ public class Quadrado extends FormaBidimensional{
 		return this.lado*this.lado*this.lado*this.lado;
 		
 	}
-	
+
 	public String toString() {
-		return super.toString() + "Area do quadrado:/t" + getArea() +  "Perimetro do Quadrado: " + getPerimetro();
+		return super.toString() + "\nArea do quadrado:\t" + getArea() +  "\nPerimetro do Quadrado:\t" + getPerimetro();
 	}
 	
 }

@@ -19,6 +19,7 @@ public class Circulo extends FormaBidimensional{
 		
 		super(cor,corDaBorda,espBorda);
 		this.raio= raio;
+
 	}
 	@Override
 	public double getArea() {
@@ -32,7 +33,7 @@ public class Circulo extends FormaBidimensional{
 	}
 	
 	public String toString() {
-		return super.toString() + "Area do Circulo:/t" + getArea() +  "Perimetro do Circulo: " + getPerimetro();
+		return super.toString() + "\nArea do Circulo:\t" + getArea() +  "\nPerimetro do Circulo:\t" + getPerimetro();
 	}
 	
 }

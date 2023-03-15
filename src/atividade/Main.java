@@ -24,7 +24,7 @@ public class Main {
 				String corDaBorda = leia.nextLine();
 				
 				Quadrado quadrado = new Quadrado(lado, cor, corDaBorda, espessura);
-				quadrado.toString();
+				System.out.println(quadrado.toString());
 				break;
 			case 2:
 				System.out.println("\n\tcriar um circulo: ");
@@ -40,7 +40,7 @@ public class Main {
 				String corDaBorda1 = leia.nextLine();
 				
 				Circulo circulo = new Circulo(raio, cor1, corDaBorda1, espessura1);
-				circulo.toString();
+				System.out.println(circulo.toString());
 				break;
 			case 3: 
 				break;

@@ -26,10 +26,11 @@ public abstract class   FormaBidimensional extends Forma{
 		this.corDaBorda = corDaBorda;
 		this.espessuraDaBorda = espBorda;
 		super.setCor(cor);
+		
 	}
 	
 	public String toString() {
-		return "Cor: " + this.getCor() + "\nCor da borda:\t" + this.corDaBorda + "\nEspessura da borda:\t" + this.espessuraDaBorda ;
+		return "Cor: \t\t\t" + this.getCor() + "\nCor da borda:\t\t" + this.corDaBorda + "\nEspessura da borda:\t" + this.espessuraDaBorda ;
 	}
 	
 	public abstract double getArea();
