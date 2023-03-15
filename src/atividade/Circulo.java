@@ -22,12 +22,12 @@ public class Circulo extends FormaBidimensional{
 	}
 	@Override
 	public double getArea() {
-		return (3.14 * this.raio*this.raio);
+		return (Math.PI * this.raio * this.raio);
 		
 	}
 	@Override
 	public double getPerimetro() {
-		return (2 * 3.14 * this.raio);
+		return (2 * Math.PI * this.raio);
 		
 	}
 	
